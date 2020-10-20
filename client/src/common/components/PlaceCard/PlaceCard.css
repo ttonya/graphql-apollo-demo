@@ -1,0 +1,11 @@
+.PlaceCard {
+	margin: 15px !important;
+	max-width: 350px;
+	box-shadow: 0px 0px 6px 0px #c4c4c4;
+	overflow: hidden;
+}
+
+.PlaceCard__image {
+	background-position: center;
+	background-size: cover;
+}

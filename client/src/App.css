@@ -1,0 +1,44 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 40px 15px;
+	overflow: hidden;
+}
+
+.App__autocomplete {
+	width: 300px;
+}
+
+.App__place {
+	width: 100%;
+	text-align: center;
+}
+
+.App__places {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.App__images {
+	width: 100%;
+	overflow-x: scroll;
+	display: flex;
+	height: 400px;
+}
+
+.App__image {
+	width: auto;
+	height: 400px;
+}
+
+.App__header {
+	font-size: 36px;
+	margin: 30px 0;
+}
+
+.MuiCard-root {
+	margin: 15px;
+}

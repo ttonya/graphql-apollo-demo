@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es2017",
+        "noImplicitAny": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts", "src/googleResolver.cjs"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

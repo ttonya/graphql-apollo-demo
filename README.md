@@ -7,15 +7,16 @@ Simple demo with implementation of apollo-server-express and Google Places API
 To run this app you need a Google API key.
 [How to get a key ](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
-In graphql-server add .env file with **GOOGLE_API_KEY=your api key**
-In graphql-client add file common/const.ts with **export const GOOGLE_API_KEY=your api key**
+In server add .env file with **GOOGLE_API_KEY=your api key**
+
+In client add file common/const.ts with **export const GOOGLE_API_KEY=your api key**
 
 # Install dependencies and run the app
 
 ```
-cd graphql-server && npm i && npm run start
+cd server && npm i && npm run start
 cd ..
-cd graphql-client && npm i && npm run start
+cd client && npm i && npm run start
 ```
 
 # Queries
